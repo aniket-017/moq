@@ -8,7 +8,7 @@ const bodyParser = require("body-parser");
 const fileUpload = require("express-fileupload");
 
 // DB_URI = "mongodb://localhost:27017/PartCode"
-// DB_URI = "mongodb+srv://latakhillare:LtmZBL4ZiJiZ3hs0@cluster0.impfvlk.mongodb.net/?retryWrites=true&w=majority"
+
 app.use(express.json());
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
